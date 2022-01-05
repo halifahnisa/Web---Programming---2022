@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6.2</title>
+    <style>
+        #container{
+            display: flex;
+            width: 50em;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+        .nav{
+            float: left;
+            width: 7em;
+            height: 22em;
+            background-color: darkseagreen;
+        }
+        #container2{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 35em;
+        }
+        .header{
+            width: 30em;
+            height: 4em;
+            background-color: slategray;
+        }
+        #container3{
+            display: flex;
+            flex-direction: row;          
+            flex-wrap: wrap;
+            width: 40em;
+        }
+        .article{
+            width: 23em;
+            height: 14em;
+            background-color: tan;
+        }
+        .aside{
+            width: 7em;
+            height: 14em;
+            background-color: rosybrown;
+        }
+        .footer{
+            width: 30em;
+            height: 4em;
+            background-color: slategray;
+        }
+        .h3{
+            padding-left: 3em;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="nav">
+            <h3>Nav</h3>
+        </div>
+
+    <div id="container2">
+        <div class="header">
+            <h3>Header</h3>
+        </div>
+
+    <div id="container3">
+        <div class="article">
+            <h3>Article</h3>
+        </div>
+        <div class="aside">
+            <h3>Aside</h3>
+        </div>
+    </div>
+
+        <div class="footer">
+            <h3>Footer</h3>
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>

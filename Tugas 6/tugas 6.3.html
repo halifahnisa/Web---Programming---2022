@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6.3</title>
+    <style>
+        #container{
+            display: flex;
+            width: 45em;
+            flex-direction: column;
+            flex-wrap: wrap;
+            background-color: darkslategrey;
+            padding: 1em;
+        }
+        .header{
+            width: 45em;
+            height: 5em;
+            background-color: darkseagreen;
+            text-align: center;
+        }
+        .h1{
+            text-align: center;
+            padding-top: 2em;
+        }
+        #container2{
+            display: flex;
+            width: 50em;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+        .aside{
+            width: 9em;
+            height: 25em;
+            background-color: slategray;
+            text-align: center;
+        }
+        .article{
+            width: 35em;
+            height: 25em;
+            background-color: tan;
+            margin-left: 1em;
+        }
+        .footer{
+            width: 45em;
+            height: 5em;
+            background-color: darkseagreen;
+            text-align: center;
+        }
+        .gambar{
+            width: 100px;
+            height: 100px;
+            padding-left: 60px;
+        }
+        h2{
+            text-align: center;
+            padding-top: 8em;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="header">
+            <h1>Header</Header></h1>
+        </div>
+    
+    <div id="container2">
+        <div class="aside">
+            <h2>Aside</h2>
+        </div>
+        <div class="article">
+            <h2>Article</h2>
+            <img src="planet.png" alt="lucu" class="gambar">
+            <img src="planet.png" alt="lucu" class="gambar">
+            <img src="planet.png" alt="lucu" class="gambar">
+        </div>
+    </div>
+
+        <div class="footer">
+            <h1>Footer</h1>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+    fieldset{
+        border-radius: 5px;
+        color: black;
+        border: 2px solid grey;
+        background-color: darkseagreen;
+      }
+      section{
+        margin-left: 45px;
+      }
+      table{
+        margin-top: 24px;
+      }
+      article{
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+      }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>I14 - Directory Profile Page</legend>
+        <article style="display: flex;">
+        <div>
+            <img style="width: 200px; border: 5 px solid black;" src="foto.png" alt="fotoku">
+        </div>
+
+        <section>
+            <div>
+                <h1 style= "font-size: 25px">Profile Name</h1>
+            </div>
+
+            <div>
+                <table>
+                    <tr>
+                        <td>Anisa Nur Halifah</td>
+                    </tr>
+                    <tr>
+                        <td>Kp. Pulo Jahe Rt001/Rw. 005</td>
+                    </tr>
+                    <tr>
+                        <td>Bandung, 28 Febuari 2002</td>
+                    </tr>
+                    <tr>
+                        <td>Number: 089510681104</td>
+                    </tr>
+                    <tr>
+                        <td>NIM: 0110221136</td>
+                    </tr>
+                    <tr>
+                        <td>E-mail: <a href="email">anisahalifah02@gmail.com</a></td>
+                    </tr>
+                    <tr>
+                        <td>you get what you work form, nit what you wish for</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section>
+            <section style="margin-left: 50px;">
+                <div>
+                    <p><h5><u>Category</u></h5></p>
+                    <p>Wallpaper</p>
+                    <p>Aestetic</p>
+                    <p>Kamar</p>
+                </div>
+        </section>
+    </article>
+
+    <article>
+        <p>Background memiliki arti "latar belakang" adalah bisa diartikan sebagai bidang atau celah yang terlihat paling jauh ketika meihat suatu objek. Dalam bidang desain grafis, background adalah istilah untuk layer yang berada pada posisi paling bawah.</p>
+        <P>Background, atau yang dikenal dengan latar belakang, merupakan salah satu komponen desain yang cukup penting. Background terutama digunakan untuk memberikan dekorasi visual terhadap sebuah elemen, yang akan mengakibatkan peningkatan kemudahan nalar atau pengertian akan sebuah konten.</P>
+    </article>
+
+    <footer>
+        <div style="float: left; margin-left: 30px;">
+        <iframe width="300" height="300" src="https://www.youtube.com/embed/D3AlFH4n2RE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <canvas id="mycanvas" width="300" height="300" style="border:1px solid black; margin-left: 100px;">
+            Your browser does not support the HTML canvas tag.</canvas>
+            <script>
+                var c = document.getElementById("mycanvas");
+                var ctx = c.getContext("2d");
+                ctx.moveTo(0, 0);
+                ctx.lineTo(500, 420);
+                ctx.stroke();
+            </script>
+        </div>
+        
+        <fieldset style="float: left; margin-left: 100px;"><legend>Attachment</legend>
+            <iframe width="300" height="300" src="http://localhost/web-praktikum-2021-ti05/" frameborder="0"></iframe>
+        </fieldset>
+        </footer>
+</body>
+</html>
